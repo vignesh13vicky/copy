@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(funny-nezuko-and-tanjiro-desktop-wallpaper.jpg);
+    background-size: cover;
+}
+
+li {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(240, 248, 255, 0.37);
+    backdrop-filter: blur(10px);
+    border: solid black 2px;
+    /* border-radius: 15px; */
+    height: auto;
+    width: 700px;
+    overflow-y: auto;
+    max-height: 100vh;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.sec1 h2 {
+    text-align: center;
+    color: #c2e60f;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0,10);
+}
+
+.in {
+    height: 15px;
+    width: 15px;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px;
+}
+li label{
+    font-weight:550;
+}
+

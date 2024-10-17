@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottom Center Icon Nav Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon-container">
+            <img src="icon.png" alt="Icon" class="icon">
+        </div>
+    </div>
+</body>
+</html>
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+
+HTML Structure: The HTML contains a div with a class navbar which holds another div with a class icon-container. Inside this container is an img element that represents the icon.
+CSS Styles:
+The body and html elements are set to have no margin or padding, height of 100%, and are styled to use flexbox for centering content horizontally and positioning it at the bottom.
+The .navbar class styles the navigation bar, making it stretch across the width of the screen, positioned at the bottom, with a background color and padding.
+The .icon-container ensures the icon is centered within the navigation bar.
+The .icon class sets the size of the icon.
+This example provides a basic layout. You can customize the icon size, padding, background color, and other properties to fit your specific design needs.

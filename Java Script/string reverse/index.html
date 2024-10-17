@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reverse string</title>
+</head>
+<body>
+    <div class="c">
+        <input id="in" type="text" placeholder="Enter a String">
+    <button id="click" onclick="rev()">Result</button>
+    <p id="res"></p>
+    </div>
+    <script>  
+        function rev(){
+            let x=document.getElementById("in").value
+       let z=x.split('').reverse().join('')
+       document.getElementById("res").innerHTML = z; 
+     }
+        </script>
+        <style>
+.c{
+    width:250px;
+    height: 100px;
+    background: red;
+    color: white;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;  
+    margin-left: auto;
+    margin-right: auto;  
+        }
+       </style>
+
+</body>
+</html>
+    

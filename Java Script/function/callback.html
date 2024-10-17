@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+// const a=()=>{
+//     console.log("after 3 sec");
+// }
+// setTimeout(a,1000)
+function handle(ln){
+    setTimeout(()=>{
+        console.log("bye"+ln);
+    },3000)   
+}
+function fname(name,cb){
+    const ln=name.toUpperCase()
+    console.log("my name is "+ln);
+    cb(ln)
+}
+fname("john")
+</script>    
+</body>
+</html>   

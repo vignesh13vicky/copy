@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// const a=[22,33,44,55,66,77]
+// a.filter(function(previousVal,currentVal)
+// {console.log("previousVal",previousVal)
+// console.log("currentVal",currentVal)
+// })
+// const a=[22,33,44,55,66,77]
+// let b=a.reduce(function(previousVal,currentVal)
+// {return previousVal+currentVal})
+// console.log(b)
+
+const a=[
+    {id:'1',item:'rice',cost:50},
+    {id:'2',item:'wheat',cost:100},
+    {id:'3',item:'curd',cost:25},
+]
+let b=a.reduce (function(accumulator,currentVal){
+    return accumulator+currentVal.cost
+},0)
+     console.log(b)
+ </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="/indexcalculator.css">
+    <script src="/indexcalculator.js"></script>
+</head>
+<body>
+   <center><div class="class">
+        <table>
+            <tr>
+                <td colspan="4"><input value="0" type="text" id="input" ></td>
+                <td rowspan="3"><button class="sol" onclick="sol()" >=</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="myfun('7')" >7</button></td>
+                <td><button onclick="myfun('8')" >8</button></td>
+                <td><button onclick="myfun('9')" >9</button></td>
+                <td><button onclick="myfun('+')" >+</button></td>
+
+               
+            </tr>
+            <tr>
+                <td><button onclick="myfun('4')" >4</button></td>
+                <td><button onclick="myfun('5')" >5</button></td>
+                <td><button onclick="myfun('6')" >6</button></td>
+                <td><button onclick="myfun('-')" >-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="myfun('1')" >1</button></td>
+                <td><button onclick="myfun('2')" >2</button></td>
+                <td><button onclick="myfun('3')" >3</button></td>
+                <td><button onclick="myfun('*')" >*</button></td>
+                <td rowspan="2"><button class="del" onclick="clean()" >DEL</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="myfun('0')" >0</button></td>
+                <td><button onclick="myfun('.')" >.</button></td>
+                <td><button onclick="myfun('/')" >/</button></td>
+                <td><button onclick="myfun('%')" >%</button></td>
+            </tr>
+    </table>
+    </div>
+</center> 
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample website</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="Contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     
+      <nav>
+      <ul class='nav-bar'>
+         <li id="home"><a class="h" href="home.html" id="home" style="color: white;"> Hello Interiors</a></li>
+          <input type='checkbox' id='check' />
+          <span class="menu">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Designers.html">Designers</a></li>
+              <li><a href="Packages.html">Packages</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+          </span>
+          <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </ul>
+  </nav>
+  
+  <div class="con">Contact</div>
+  <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+  <div class="card" >
+  <form> 
+      <div class="input-box">
+            <input type="text" placeholder="Name..." name="Name...">
+        </div> <br>
+        <div class="input-box">
+          <input type="tel" placeholder="Phone Number..." name="Phone Number...">
+        </div> <br>
+        <div class="input-box">
+           <input type="email" placeholder="E-mail..." name="E-mail..." >
+        </div> <br>
+        <div class="input-box">
+          <input type="text" placeholder="Message..." name="Message..." >
+        </div>  <br>
+        <br>
+        <a href="link" class="sub">Submit</a>   
+    </form>
+  </div>
+  </body>
+  
+</html>

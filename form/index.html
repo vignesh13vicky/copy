@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form style.css">
+</head>
+<body>
+   <center> <div class="card">
+    <form>
+        <b>Login Form</b><br>
+        <label for="fname">Name</label><br>
+       <input type="text"  placeholder="Enter your name"  required ><br>
+        <label for="mail"> Email id </label><br>
+        <input type="email" class="text" placeholder="Enter your Email Address"  required><br>
+        <label for="tel">Mobile Number</label><br>
+        <input type="tel" class="text" placeholder="Enter your Mobile Number" pattern="[0-9]{10}" required   ><br>
+        <label for="date">Date of birth</label><br>
+        <input type="date" class="text" placeholder="Enter Date of birth" required><br>
+        <label for="add" >Address</label><br>
+        <input type="text" class="text" placeholder="Enter your Address" style="width:200px; height:70px;"required><br>
+        <label for="password">Password</label><br>
+        <input type="password" class="text" placeholder="Enter your Password" required ><br>
+       <label for="gender"> Gender </label><br>
+       <input type="radio" id="male" name="gender" value="male"  >
+       <label for="male">male</label> 
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="male">female</label> <br>
+       <button class="reset" type="reset" value="reset">Reset</button>&nbsp;
+       <button class="submit" type="submit" value="submit" >Submit</button>
+    </form>
+</div></center>
+</body>
+</html>
